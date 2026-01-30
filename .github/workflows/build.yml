@@ -50,7 +50,6 @@ jobs:
           files: |
             packages/weylus-linux.zip
             packages/Weylus*.deb
-            packages/weylus-windows.zip
           prerelease: false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
